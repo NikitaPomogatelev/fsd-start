@@ -1,7 +1,7 @@
 export type EnvConfig = {
-	API_URL: string;
+	VITE_API_URL: string;
 }
 
 export const CONFIG: EnvConfig = {
-	API_URL: import.meta.env.API_URL
+	VITE_API_URL: import.meta.env.VITE_API_URL
 }
