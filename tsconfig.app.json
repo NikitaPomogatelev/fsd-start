@@ -9,8 +9,8 @@
     "skipLibCheck": true,
     
     "baseUrl": ".",
-     "paths": {
-      "@/*": ["src/*"] // Map "@/*" to files under "src/"
+    "paths": {
+      "@/*": ["src/*"]
     },
 
     /* Bundler mode */
