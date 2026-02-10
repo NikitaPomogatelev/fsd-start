@@ -1,10 +1,10 @@
-
-import HomePage from '@/pages/home/ui/HomePage';
+import { HomePage } from '@/pages/home';
 import { createBrowserRouter } from 'react-router-dom';
 import Layout from '../layout/Layout';
-import CoursesPage from '@/pages/courses/ui/CoursesPage';
-import CoursesDetailPage from '@/pages/courses-detail/ui/CoursesDetailPage';
-import ProfilePage from '@/pages/profile/ui/ProfilePage';
+import { CoursesPage } from '@/pages/courses';
+import { CoursesDetailPage } from '@/pages/courses-detail';
+import { ProfilePage } from '@/pages/profile';
+
 
 
 export const router = createBrowserRouter([

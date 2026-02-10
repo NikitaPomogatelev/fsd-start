@@ -1,7 +1,8 @@
-import { ROUTES } from '@/shared/routes/routes'
+
+import { ROUTES } from '@/shared'
 import { NavLink } from 'react-router-dom'
 
-const HomePage = () => {
+export const HomePage = () => {
 	return (
 		<div>
 			<h1>MainPage</h1>
@@ -14,5 +15,3 @@ const HomePage = () => {
 		</div>
 	)
 }
-
-export default HomePage
